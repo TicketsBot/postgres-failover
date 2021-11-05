@@ -1,7 +1,8 @@
 [workspace]
 members = [
     #"node-watcher",
-    #"promotion-agent",
+    "promotion-agent",
     #"lb-agent",
-    "status-witness"
+    "status-witness",
+    "discord-alerts"
 ]
