@@ -1,0 +1,17 @@
+[package]
+name = "status-witness"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+tokio = { version = "1.2", features = ["full"] }
+axum = "0.2"
+hyper = { version = "0.14", features = ["http1", "http2", "server", "runtime", "stream"] }
+tokio-postgres = "0.7"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "1"
+toml = "0.5"
+log = "0.4"
+env_logger = "0.9"
+cidr = { version = "0.2", features = ["serde"] }

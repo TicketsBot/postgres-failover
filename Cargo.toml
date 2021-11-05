@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    #"node-watcher",
+    #"promotion-agent",
+    #"lb-agent",
+    "status-witness"
+]
